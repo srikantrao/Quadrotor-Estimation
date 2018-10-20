@@ -1,7 +1,7 @@
-### STUDENT SECTION
+### STUDENT SECTION -- Std Dev values based on 10s of measurement 
 
-MeasuredStdDev_GPSPosXY = 2
-MeasuredStdDev_AccelXY = .1
+MeasuredStdDev_GPSPosXY = 0.7097
+MeasuredStdDev_AccelXY = .4892
 
 ### END STUDENT SECTION
 

@@ -27,7 +27,9 @@ public:
   VectorXf PredictState(VectorXf curState, float dt, V3F accel, V3F gyro);
   MatrixXf GetRbgPrime(float roll, float pitch, float yaw);
 
+  // Attitude estimation for the Quad using a Complimentary Filter 
   virtual void UpdateFromIMU(V3F accel, V3F gyro);
+
   virtual void UpdateFromGPS(V3F pos, V3F vel);
   virtual void UpdateFromBaro(float z) {};
 	virtual void UpdateFromMag(float magYaw);
